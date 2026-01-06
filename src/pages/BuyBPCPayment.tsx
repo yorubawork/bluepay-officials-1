@@ -80,7 +80,7 @@ const BuyBPCPayment = () => {
       </div>
 
       <div className="flex flex-col items-center p-4 mb-4">
-        <h1 className="text-3xl font-bold mb-1">NGN 6,500</h1>
+        <h1 className="text-3xl font-bold mb-1">NGN 10,000</h1>
         <p className="text-gray-600 text-sm">BPC Code Purchase</p>
       </div>
 
@@ -100,7 +100,7 @@ const BuyBPCPayment = () => {
         <div className="mb-3">
           <p className="text-gray-500 text-xs">Amount</p>
           <div className="flex justify-between items-center">
-            <p className="text-lg font-bold">NGN 6,500</p>
+            <p className="text-lg font-bold">NGN 10,000</p>
             <Button
               variant="default"
               size="sm"
