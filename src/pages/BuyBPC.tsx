@@ -11,7 +11,7 @@ import TypewriterText from "../components/ui/TypewriterText";
 const BuyBPC = () => {
   const navigate = useNavigate();
   const { userData } = useUserStore();
-  const [amount] = useState("₦6,500");
+  const [amount] = useState("₦10,000");
   const [fullName, setFullName] = useState(userData?.fullName || "");
   const [email, setEmail] = useState(userData?.email || "");
   const [isSubmitting, setIsSubmitting] = useState(false);
